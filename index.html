@@ -14,7 +14,7 @@
   </head>
   <body class="">
     <div class="main w-screen h-screen flex dark:bg-slate-900">
-      <div class="left w-24 lg:w-60 h-full space-y-10 relative">
+      <div class="left w-16 md:w-24 lg:w-60 h-full space-y-10 relative shrink">
         <div class="brand mx-auto text-center mt-6">
           <i
             class="fa-brands fa-instagram text-5xl lg:hidden dark:text-white"></i>
@@ -23,7 +23,7 @@
           </p>
         </div>
         <div class="li-cont">
-          <ul class="text-start space-y-3 dark:text-white">
+          <ul class="text-start space-y-1 dark:text-white">
             <li
               class="group rounded-md hover:bg-slate-300/50 before:hidden dark:hover:bg-slate-400/50 mx-4 cursor-pointer before:content-['Home'] before:absolute before:w-28 before:text-center before:h-12 before:rounded-r-full relative before:right-[-127px] hover:before:flex lg:before:hover:hidden before:justify-center before:items-center before:bg-transparent before:hover:bg-slate-200/20 before:hover:text-black before:text-transparent before:duration-[1000ms] dark:hover:before:text-white duration-100 transition lg:pl-3 text-start flex items-center justify-center lg:justify-start lg:text-start">
               <i
@@ -70,7 +70,7 @@
         </div>
         <div class="collapse-li mx-2 text-black text-base dark:text-white">
           <button
-            class="ul-toggler lg:ps-7 hover:bg-slate-200 group flex justify-between lg:justify-start dark:hover:bg-slate-600 p-2 w-full rounded-md text-start">
+            class="ul-toggler lg:ps-7 hover:bg-slate-200 group flex justify-center items-center flex-col lg:flex-row lg:justify-start dark:hover:bg-slate-600 p-2 w-full rounded-md text-start">
             <i class="fa-solid fa-bars group-hover:scale-105 text-2xl"></i>
             <p class="p-1 lg:ps-2">More</p>
           </button>
@@ -128,56 +128,176 @@
         <div class="w-2/3 h-screen grow max-w-[100%]">
           <div class="relative w-[81%] mx-auto dark:bg-slate-900 mt-2">
             <div
-              class="ps-2 scroll-smooth scrollbar-none scrollArea snap-proximity flex items-center space-x-5 justify-between overflow-auto min-h-[140px] max-h-44">
+              class="ps-2 scroll-smooth scrollbar-none scrollArea flex items-center space-x-5 justify-between snap-x overflow-x-auto min-h-[140px] max-h-44">
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f2.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f2.jpg"
+                  class="w-[50px] h-[50px] bg-cover rounded-full"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f2-copy.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f2-copy.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f3.png)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f3.png"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
 
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f11.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f11.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f4.jpeg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f4.jpeg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f5.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f5.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f6.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f6.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f7.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f7.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f8.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f8.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f9.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f9.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f10.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f10.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f4.jpeg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f4.jpeg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f11.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f11.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f12.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f12.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f13.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f13.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f14.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f14.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f15.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f15.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f16.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f16.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url()]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f3.png)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f3.png"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f2.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f2.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f3.png)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f3.png"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f4.jpeg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f4.jpeg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f2.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-end snap-x">
+                <img
+                  src="./images/f2.jpg"
+                  class="rounded-full w-[50px] h-[50px]"
+                  alt="" />
+              </div>
               <div
-                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[50px] h-[50px] bg-[url(/images/f10.jpg)] bg-cover shrink-0 snap-start"></div>
+                class="ring-2 ring-offset-2 before:content-[''] before:w-[60px] before:h-[60px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full bg-cover shrink-0 snap-start snap-x">
+                <img
+                  src="./images/f10.jpg"
+                  class="rounded-full w-[50px] h-[50px] bg-[url]"
+                  alt="" />
+              </div>
             </div>
             <div class="scrollRight absolute top-1/2 -translate-y-1/2 right-0">
               <i
@@ -195,7 +315,7 @@
                 <div class="flex justify-between">
                   <div class="le flex justify-start items-center space-x-3">
                     <div
-                      class="cursor-pointer ring-2 ring-offset-2 before:content-[''] before:w-[50px] before:h-[50px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[40px] h-[40px] bg-[url(/images/f15.jpg)] bg-cover shrink-0"></div>
+                      class="cursor-pointer ring-2 ring-offset-2 before:content-[''] before:w-[50px] before:h-[50px] before:rounded-full before:bg-gradient-to-r before:from-orange-400 before:via-red-500 before:to-purple-500 before:absolute before:z-[-1] before:right-1/2 before:translate-x-1/2 before:top-1/2 before:-translate-y-1/2 relative rounded-full w-[40px] h-[40px] bg-[url(./images/f15.jpg)] bg-cover shrink-0"></div>
                     <p
                       class="text-sm font-bold hover:text-slate-600 dark:hover:text-slate-300 dark:text-white cursor-pointer">
                       news_4_barcelona
@@ -313,7 +433,7 @@
             <div
               class="flex w-2/3 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
               <div
-                class="bg-[url(/images/fm.jpg)] h-16 w-16 bg-cover rounded-full"></div>
+                class="bg-[url(./images/fm.jpg)] h-16 w-16 bg-cover rounded-full"></div>
               <div class="ps-2 flex flex-col justify-center items-center">
                 <p class="text-sm font-bold dark:text-white">moimen wagdy</p>
                 <p class="capitalize text-sm text-black/40 dark:text-white/40">
@@ -351,7 +471,7 @@
               <div
                 class="flex w-3/4 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
                 <div
-                  class="bg-[url(/images/f12.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
+                  class="bg-[url(./images/f12.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
                 <div
                   class="ps-2 flex flex-col justify-center lg:justify-start items-center lg:items-start">
                   <p class="text-sm font-bold dark:text-white">MohamedOsama</p>
@@ -373,7 +493,7 @@
               <div
                 class="flex w-3/4 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
                 <div
-                  class="bg-[url(/images/f6.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
+                  class="bg-[url(./images/f6.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
                 <div
                   class="ps-2 flex flex-col justify-center lg:justify-start items-center lg:items-start">
                   <p class="text-sm font-bold dark:text-white">MahmouFarouk</p>
@@ -395,7 +515,7 @@
               <div
                 class="flex w-3/4 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
                 <div
-                  class="bg-[url(/images/f8.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
+                  class="bg-[url(./images/f8.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
                 <div
                   class="ps-2 flex flex-col justify-center lg:justify-start items-center lg:items-start">
                   <p class="text-sm font-bold dark:text-white">NonaGamal</p>
@@ -417,7 +537,7 @@
               <div
                 class="flex w-3/4 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
                 <div
-                  class="bg-[url(/images/f10.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
+                  class="bg-[url(./images/f10.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
                 <div
                   class="ps-2 flex flex-col justify-center lg:justify-start items-center lg:items-start">
                   <p class="text-sm font-bold dark:text-white">ShirifAmer</p>
@@ -439,7 +559,7 @@
               <div
                 class="flex w-3/4 flex-col items-center lg:flex-row lg:justify-start lg:items-center">
                 <div
-                  class="bg-[url(/images/f14.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
+                  class="bg-[url(./images/f14.jpg)] h-10 w-10 bg-cover rounded-full shrink-0"></div>
                 <div
                   class="ps-2 flex flex-col justify-center lg:justify-start items-center lg:items-start">
                   <p class="text-sm font-bold dark:text-white">AmroAdib</p>
