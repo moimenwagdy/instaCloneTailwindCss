@@ -911,8 +911,40 @@ video {
   background-image: url(./images/f8.jpg);
 }
 
+.bg-\[url\(\/images\/fm\.jpg\)\] {
+  background-image: url(/images/fm.jpg);
+}
+
 .bg-\[url\(\.\/images\/fm\.jpg\)\] {
   background-image: url(./images/fm.jpg);
+}
+
+.bg-\[url\(images\/fm\.jpg\)\] {
+  background-image: url(images/fm.jpg);
+}
+
+.bg-\[url\(\/images\/f12\.jpg\)\] {
+  background-image: url(/images/f12.jpg);
+}
+
+.bg-\[url\(images\/f12\.jpg\)\] {
+  background-image: url(images/f12.jpg);
+}
+
+.bg-\[url\(images\/f6\.jpg\)\] {
+  background-image: url(images/f6.jpg);
+}
+
+.bg-\[url\(images\/f8\.jpg\)\] {
+  background-image: url(images/f8.jpg);
+}
+
+.bg-\[url\(images\/f10\.jpg\)\] {
+  background-image: url(images/f10.jpg);
+}
+
+.bg-\[url\(images\/f14\.jpg\)\] {
+  background-image: url(images/f14.jpg);
 }
 
 .bg-cover {
