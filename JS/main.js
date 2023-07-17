@@ -15,6 +15,7 @@ let ulmood = document.querySelector(".moodul");
 let darkLight = document.querySelector(".darkLight");
 let button = document.getElementById("tog");
 let h = document.querySelector("html");
+let goBack = document.querySelector(".goBack");
 
 ulTogller.addEventListener("click", () => {
   list.classList.toggle("hidden");
@@ -68,6 +69,7 @@ function creatLocalStorage() {
   window.localStorage.setItem("mood", button.case);
 }
 darkLight.onclick = () => {
+  ulmood.classList.add("hidden");
   if (h.classList.contains("dark")) {
     h.classList.remove("dark");
     h.classList.add("light");
@@ -84,3 +86,7 @@ darkLight.onclick = () => {
 if (localStorage.getItem("mood")) {
   h.classList.add(localStorage.mood);
 }
+
+goBack.onclick = () => {
+  list.classList.add("hidden")
+};
