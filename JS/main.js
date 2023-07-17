@@ -3,7 +3,7 @@ let ulTogller = document.querySelector(".ul-toggler");
 let scrollToRight = document.querySelector(".scrollRight");
 let scrollToLeft = document.querySelector(".scrollLeft");
 let scrollArea = document.querySelector(".scrollArea");
-let blurebutton = document.querySelector(".ri");
+let blurebutton = document.querySelectorAll(".ri");
 let blurtarget = document.querySelector(".ulhi");
 let cancel = document.querySelector(".cancel");
 let notTarget = document.querySelector(".notTarget");
@@ -29,14 +29,20 @@ scrollToRight.onclick = () => {
   scrollArea.scrollBy({ left: 180, behavior: "smooth" });
 };
 
-blurebutton.onclick = () => {
-  if (blurtarget.classList.contains("hidden")) {
-    blurtarget.classList.remove("hidden");
-  } else {
-    blurtarget.classList.add("hidden");
+let eve = () => {
+  for (let i = 0; i < blurebutton.length; i++) {
+    blurebutton[i].onclick = () => {
+      console.log(i);
+      if (blurtarget.classList.contains("hidden")) {
+        blurtarget.classList.remove("hidden");
+      } else {
+        blurtarget.classList.add("hidden");
+      }
+      blurtarget.classList.add("flex");
+    };
   }
-  blurtarget.classList.add("flex");
 };
+eve();
 
 cancel.onclick = () => {
   blurtarget.classList.add("hidden");
@@ -88,5 +94,5 @@ if (localStorage.getItem("mood")) {
 }
 
 goBack.onclick = () => {
-  list.classList.add("hidden")
+  list.classList.add("hidden");
 };
