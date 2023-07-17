@@ -29,16 +29,19 @@ scrollToRight.onclick = () => {
   scrollArea.scrollBy({ left: 180, behavior: "smooth" });
 };
 
-addEventListener("click", () => {
-  blurebutton.forEach(ele, () => {
-    if (blurtarget.classList.contains("hidden")) {
-      blurtarget.classList.remove("hidden");
-    } else {
-      blurtarget.classList.add("hidden");
-    }
-    blurtarget.classList.add("flex");
-  });
-});
+let eve = () => {
+  for (let i = 0; i < blurebutton.length; i++) {
+    blurebutton[i].onclick = () => {
+      if (blurtarget.classList.contains("hidden")) {
+        blurtarget.classList.remove("hidden");
+      } else {
+        blurtarget.classList.add("hidden");
+      }
+      blurtarget.classList.add("flex");
+    };
+  }
+};
+eve();
 
 cancel.onclick = () => {
   blurtarget.classList.add("hidden");
